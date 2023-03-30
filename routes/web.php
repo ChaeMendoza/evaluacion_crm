@@ -27,6 +27,13 @@ Route::middleware([UserAuth::class])->group(function () {
  
 });
  
+/* nueva ruta con el nombre "pairs", que espera tres parámetros: n, k y arr. 
+La ruta es manejada por el método "countPairs" en el controlador "PairsController" */
+Route::get('/pairs/{n}/{k}/{arr}', 'PairsController@countPairs'); 
+
+/* Se crea la nueva ruta para poder mostrar los resultados de la API (Vista del Usuario) */
+Route::get('/pairs', 'PairsControllerView@show')->name('pairs');
+
 
 Route::get('{any}', function () {
     return view('apidoc/index');
