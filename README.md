@@ -12,6 +12,7 @@
 - Crear App_Key -> ejecutar php artisan key:generate
 - Ejecutar php artisan migrate
 - Ejecutar npm install
+- Ejecutar php artisan serve
 
 ## About Project
 
@@ -24,6 +25,8 @@ Es indispensable contar con el archivo .env y modificarlo para que pueda desarro
 también se puede probar el proyecto localmente en la ruta "/pairs"; es decir luego de ejecutar "php artisan serve" y saber que el proyecto se ejecuta en el puerto 8000 se debe agregar al final "/pairs" de esta forma:
 
 http://xxx.x.x.x:8000/pairs
+
+Solo puede probarse en esa ruta.
 
 ## License
 
