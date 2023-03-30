@@ -28,6 +28,13 @@ http://xxx.x.x.x:8000/pairs
 
 Solo puede probarse en esa ruta.
 
+## Que servicios se usaron
+
+- Para el backend se usó Laravel PHP
+- Para el Front se usó Vite/React.js
+- El delpoy fue hecho en Firebase
+- Sweet alert
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
